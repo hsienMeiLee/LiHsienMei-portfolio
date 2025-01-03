@@ -1,0 +1,20 @@
+.progress-ring__bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 10;
+  }
+  
+  .progress-ring__value {
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+    /* Must set dasharray and dashoffset in code or in CSS */
+  }
+  
+  .progress-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    /* or use Tailwind classes like text-xl font-bold */
+  }
+  
