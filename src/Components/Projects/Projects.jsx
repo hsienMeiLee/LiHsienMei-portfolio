@@ -6,6 +6,7 @@ import netflix from '../../assets/netflix.png';
 import searchFilter from '../../assets/search-filter.png';
 import youtube from '../../assets/youtube.png';
 import { Context } from '../../context/Context';
+import hangmanGame from '../../assets/hangmanGame.png';
 
 const Projects = () => {
   const { lang } = useContext(Context);
@@ -42,7 +43,7 @@ const Projects = () => {
       nameTw: "Netflix 克隆",
       descriptionEn: "This is the website for Netflix clone using tmdb movie database api.",
       descriptionTw: "這是使用 tmdb 電影資料庫 API 克隆 Netflix 的網站.",
-      tech: ["React", "HTML", "CSS", "Tmdb Movie Database Api"],
+      tech: ["React", "HTML", "CSS", "Tmdb Movie Database Api","firebase"],
       github: "https://github.com/hsienMeiLee/netflixClone",
       vercel: "https://netflix-clone-for-educational-purpose.vercel.app/",
       img: netflix
@@ -64,6 +65,15 @@ const Projects = () => {
       github: "https://github.com/hsienMeiLee/Landing-page-with-SCSS",
       vercel: "https://landing-page-with-scss-red.vercel.app/",
       img: landing
+    },{
+      nameEn : "Hangman game",
+      nameTw : "劊子手遊戲",
+      descriptionEn : "Users can guess the letters in each English word, this project uses typescript.",
+      descriptionTw : "使用者可以猜測每個英文單字中的字母，該項目使用 typescript。",
+      tech : ["HTML","CSS","React","Typescript"],
+      github : "https://github.com/hsienMeiLee/hangmanGame",
+      vercel : "https://hangman-game-lhm.vercel.app/",
+      img : hangmanGame,
     }
   ]
   return (

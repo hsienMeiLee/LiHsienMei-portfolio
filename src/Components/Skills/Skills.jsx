@@ -18,6 +18,10 @@ import { SiMysql } from "react-icons/si";
 import { SiCanva } from "react-icons/si";
 import Language from './Language';
 import { Context } from '../../context/Context';
+import { SiTypescript } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { BsFiletypeJsx } from "react-icons/bs";
+import { BsFiletypeJson } from "react-icons/bs";
 
 
 const Skills = () => {
@@ -60,6 +64,30 @@ const Skills = () => {
               <div>
                 <h3>Javascript</h3>
                 <p>{lang === "eng" ? "Proficient" : "精通"}</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-1 justify-center sm:justify-start">
+            <SiTypescript />
+              <div>
+                <h3>Typescript</h3>
+                <p>{lang === "eng" ? "Familiar" : "熟悉"}</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-1 justify-center">
+              <BsFiletypeJsx/>
+              <div>
+                <h3>JSX</h3>
+                <p>{lang === "eng" ? "Familiar" : "熟悉"}</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-1 justify-center sm:justify-end">
+              <BsFiletypeJson/>
+              <div>
+                <h3>Json</h3>
+                <p>{lang === "eng" ? "Familiar" : "熟悉"}</p>
               </div>
             </div>
           </div>
@@ -180,7 +208,7 @@ const Skills = () => {
           <h3 className='mt-5 mb-3 text-center text-xl text-coffee'>
             {lang === "eng" ? "Others" : "其他"}
           </h3>
-          <div className="grid sm:grid-cols-2">
+          <div className="grid sm:grid-cols-3">
             <div className="flex items-start gap-1 justify-center">
               <FaWordpress size={20}/>
               <div>
@@ -193,6 +221,13 @@ const Skills = () => {
               <div>
                 <h3>Mysql database</h3>
                 <p>{lang === "eng" ? "have learned" : "學過" }</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-1 justify-center">
+            <IoLogoFirebase />
+              <div>
+                <h3>Firebase</h3>
+                <p>{lang === "eng" ? "have used" : "用過" }</p>
               </div>
             </div>
           </div>
