@@ -13,7 +13,7 @@ export const Home = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2">
 
-          <div className='md:col-start-2 md:row-start-1'>
+          <div className='md:col-start-2 md:row-start-1 flex justify-center items-center'>
             <div className="home_img"></div>
           </div>
 
